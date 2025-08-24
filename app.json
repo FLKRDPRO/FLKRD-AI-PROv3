@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "ZanaAI WebView App",
+    "slug": "zanaai-webview-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo1.png",
+    "splash": {
+      "image": "./assets/logo1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "platforms": ["ios", "android", "web"],
+    "web": {
+      "favicon": "./assets/logo1.png"
+    }
+  }
+}
