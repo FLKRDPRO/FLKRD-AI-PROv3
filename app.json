@@ -11,8 +11,32 @@
       "backgroundColor": "#ffffff"
     },
     "platforms": ["ios", "android", "web"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.flkrdstudio.zanaaiwebview",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app does not use the camera.",
+        "NSPhotoLibraryUsageDescription": "This app does not access your photo library.",
+        "NSMicrophoneUsageDescription": "This app does not use the microphone."
+      }
+    },
+    "android": {
+      "package": "com.flkrdstudio.zanaaiwebview",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo1.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": []
+    },
     "web": {
       "favicon": "./assets/logo1.png"
-    }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "userInterfaceStyle": "light"
   }
 }
